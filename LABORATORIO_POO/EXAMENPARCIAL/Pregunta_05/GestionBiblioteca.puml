@@ -1,3 +1,47 @@
-@start biblioteca
+@startuml  Gestion de Biblioteca
+
+class Libro {
+    - String titulo
+    - String autor
+    - String ISBN
+    - boolean disponible
+
+    + Libro(String titulo, String autor, String ISBN, boolean disponible)
+    + getTitulo(): String
+    + getAutor(): String
+    + getISBN(): String
+    + isDisponible(): boolean
+    + setDisponible(boolean disponible): void
+}
+
+class Prestamo {
+    - Libro libro
+    - Date fechaPrestamo
+    - Date fechaDevolucion
+    - Estudiante estudiante
+
+    + Prestamo(Libro libro, Date fechaPrestamo, Date fechaDevolucion, Estudiante estudiante)
+    + getLibro(): Libro
+    + getFechaPrestamo(): Date
+    + getFechaDevolucion(): Date
+    + getEstudiante(): Estudiante
+}
+
+class Estudiante {
+    - String nombre
+    - String codigo
+    - List<Prestamo> prestamos
+
+    + Estudiante(String nombre, String codigo)
+    + getNombre(): String
+    + getCodigo(): String
+    + getPrestamos(): List<Prestamo>
+    + agregarPrestamo(Prestamo prestamo): void
+    + mostrarPrestamos(): void
+}
+
+Estudiante "1" -- "*" Prestamo : tiene >
+Prestamo "1" -- "1" Libro : incluye >
+Libro "1" -- "*" Prestamo : es parte de >
 
 @enduml
