@@ -1,4 +1,4 @@
-package CLASE_04.EjercicioParte01;
+package LABORATORIO_POO.CLASE_04.EjercicioParte01;
 
 public class Gerente extends Empleado {
 

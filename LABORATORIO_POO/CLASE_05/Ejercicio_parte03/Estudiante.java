@@ -1,4 +1,4 @@
-package CLASE_05.Ejercicio_parte03;
+package LABORATORIO_POO.CLASE_05.Ejercicio_parte03;
 
 class Estudiante extends Persona {
     private String nombre;

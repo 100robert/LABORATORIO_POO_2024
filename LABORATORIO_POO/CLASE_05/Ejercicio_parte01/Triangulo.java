@@ -1,4 +1,4 @@
-package CLASE_05.Ejercicio_parte01;
+package LABORATORIO_POO.CLASE_05.Ejercicio_parte01;
 
 public class Triangulo extends Forma {
     private int base;

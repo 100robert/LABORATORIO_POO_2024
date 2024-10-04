@@ -1,4 +1,4 @@
-package CLASE_03.Circulo;
+package LABORATORIO_POO.CLASE_03.Circulo;
 
 public class Circulo {
     private final double radio;

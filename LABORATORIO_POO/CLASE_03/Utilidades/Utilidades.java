@@ -1,4 +1,4 @@
-package CLASE_03.Utilidades;
+package LABORATORIO_POO.CLASE_03.Utilidades;
 
 public class Utilidades {
     

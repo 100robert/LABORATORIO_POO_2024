@@ -1,4 +1,4 @@
-package CLASE_05.Ejercicio_parte04;
+package LABORATORIO_POO.CLASE_05.Ejercicio_parte04;
 
 public class Vehículo {
     public String marca;

@@ -1,4 +1,4 @@
-package CLASE_05.Ejercicio_parte02;
+package LABORATORIO_POO.CLASE_05.Ejercicio_parte02;
 
 public class Avión implements Movible {
     private String nombre;

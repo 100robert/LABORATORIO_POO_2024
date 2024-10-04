@@ -1,4 +1,4 @@
-package CLASE_02.CuentaBancaria;
+package LABORATORIO_POO.CLASE_02.CuentaBancaria;
 
 public class Main {
     public static void main(String[] args) {

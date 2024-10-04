@@ -1,4 +1,4 @@
-package CLASE_03.Persona;
+package LABORATORIO_POO.CLASE_03.Persona;
 
 public class Persona {
     private String nombre;

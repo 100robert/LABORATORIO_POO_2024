@@ -1,4 +1,4 @@
-package CLASE_03.CuentaBancaria;
+package LABORATORIO_POO.CLASE_03.CuentaBancaria;
 
 public class CuentaBancaria {
    public int numerodecuenta;

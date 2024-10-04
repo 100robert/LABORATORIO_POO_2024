@@ -1,4 +1,4 @@
-package CLASE_03.Circulo;
+package LABORATORIO_POO.CLASE_03.Circulo;
 
 public class Main {
     public static void main(String[] args) {

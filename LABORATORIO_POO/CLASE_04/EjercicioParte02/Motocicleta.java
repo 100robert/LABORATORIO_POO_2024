@@ -1,4 +1,4 @@
-package CLASE_04.EjercicioParte02;
+package LABORATORIO_POO.CLASE_04.EjercicioParte02;
 
 public class Motocicleta extends VehículoMotorizado {
     private String tipochasis;

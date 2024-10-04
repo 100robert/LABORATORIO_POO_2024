@@ -1,4 +1,4 @@
-package CLASE_05.Ejercicio_parte05;
+package LABORATORIO_POO.CLASE_05.Ejercicio_parte05;
 
 public class Main {
     public static void main(String[] args) {

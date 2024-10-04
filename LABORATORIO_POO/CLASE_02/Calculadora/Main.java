@@ -1,4 +1,4 @@
-package CLASE_02.Calculadora;
+package LABORATORIO_POO.CLASE_02.Calculadora;
 
 public class Main {
     public static void main(String[] args) {

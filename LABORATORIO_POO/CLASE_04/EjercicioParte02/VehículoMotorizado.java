@@ -1,4 +1,4 @@
-package CLASE_04.EjercicioParte02;
+package LABORATORIO_POO.CLASE_04.EjercicioParte02;
 
 public class VehículoMotorizado extends Vehículos{
     private int fuerza;
