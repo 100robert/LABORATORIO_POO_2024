@@ -29,9 +29,5 @@ class Pentagono extends FiguraConLados {
     +calcularArea():double
     +calcularPerimetro():double
 }
-FiguraGeometrica <|.. FiguraConLados
-FiguraConLados <|-- Triangulo
-FiguraConLados <|-- Cuadrado
-FiguraConLados <|-- Pentagono
 
 @enduml

@@ -1,0 +1,13 @@
+@startuml vehículo
+
+abstract class Vehículo{
+    -marca: String
+    +Vehículo(marca: String)
+}
+
+class Coche extends Vehículo{
+    -numeroPuertas: int
+    +Coche(marca: String, numeroPuertas: int)
+}
+
+@enduml

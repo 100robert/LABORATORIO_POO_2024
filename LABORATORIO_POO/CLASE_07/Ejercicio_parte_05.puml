@@ -1,0 +1,19 @@
+@startuml BackgroundColor
+
+class CuentaBancaria {
+    - saldo: double
+    + retirar(cantidad: double)
+}
+
+class SaldoInsuficienteException
+
+class CuentaCorriente extends CuentaBancaria {
+    - limiteSobregiro: double
+    + retirar(cantidad: double)
+}
+
+class LimiteSobregiroExcedidoException
+
+CuentaBancaria ..> SaldoInsuficienteException
+CuentaCorriente ..> LimiteSobregiroExcedidoException
+@enduml

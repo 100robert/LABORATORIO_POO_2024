@@ -1,5 +1,6 @@
 @startuml  Gestion de Biblioteca
 
+
 class Libro {
     - String titulo
     - String autor
@@ -39,9 +40,5 @@ class Estudiante {
     + agregarPrestamo(Prestamo prestamo): void
     + mostrarPrestamos(): void
 }
-
-Estudiante "1" -- "*" Prestamo : tiene >
-Prestamo "1" -- "1" Libro : incluye >
-Libro "1" -- "*" Prestamo : es parte de >
 
 @enduml
